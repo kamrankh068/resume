@@ -1,0 +1,59 @@
+#head h1,h2,h4 {
+    padding: 10px;
+    margin: 0px;
+}
+#head h2{
+    color: blue;
+
+}
+#head .em::before {
+    content: "Email: ";
+    color: black;
+}
+#head .git::before{
+    content: "Github: ";
+    color: black;
+}
+.carobj {
+    padding: 10px;
+    margin: 0px;
+    font-weight: bold;
+}
+.para{
+    font-size: 22px;
+    color: black;
+}
+.table td{
+    color: black;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container > div{
+    background-color: yellow;
+    font-size: 20px;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+#interview {
+    padding: 10px;
+    margin: 0px;
+}
+
+
+#project {
+    padding: 10px;
+    margin: 0px;
+}
+
+
+#skills {
+    padding: 10px;
+    margin: 0px;
+}
